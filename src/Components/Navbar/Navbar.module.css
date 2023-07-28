@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    width: 1128px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+    background-color: #6D0954;
+    color: white;
+    /* margin: 0 92px 0; */
+    /* width: 500px; */
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    margin: 0;
+    height: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    background-color: white;
+    /* padding-right: 20px; */
+    padding: 25px;
+    
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.whatsappLogo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #333;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}

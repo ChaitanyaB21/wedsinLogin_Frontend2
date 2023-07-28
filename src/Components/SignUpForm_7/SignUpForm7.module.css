@@ -1,0 +1,106 @@
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    /* left: 140px; */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+span {
+    margin: 0 auto;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.span2 {
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+
+.mandatory {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+label {
+    padding-left: 200px;
+    width: 30%;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+select {
+    padding: 5px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 360px;
+    height: 38px;
+    left: 666px;
+    font-style: italic;
+}
+
+input {
+    /* flex-grow: 1; */
+    padding: 5px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 360px;
+    height: 25px;
+    left: 666px;
+}
+
+.NextButton {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: #850953;
+    margin-left: 500px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.NextButton:hover {
+    background-color: #5e073b;
+}
